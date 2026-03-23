@@ -1,14 +1,18 @@
 packer {
   required_plugins {
     amazon = {
-      version = ">= 1.2.8"
+      version = ">= 1.3.0"
       source  = "github.com/hashicorp/amazon"
     }
   }
 }
 
 source "amazon-ebs" "ubuntu" {
+<<<<<<< HEAD
   ami_name      = "learn-packer-sravan420-linux-aws-ubuntutest"
+=======
+  ami_name      = "learn-packer-sravanbhaiii-linux-aws-ubuntutest"
+>>>>>>> 46ac5a0 (my local changes)
   instance_type = "t2.micro"
   region        = "ap-south-1"
   source_ami_filter {
