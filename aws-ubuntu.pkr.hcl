@@ -8,7 +8,7 @@ packetpacker {
 }
 
 source "amazon-ebs" "ubuntu" {
-  ami_name      = "learn-packer-sravan-linux-aws-ubuntutest"
+  ami_name      = "learn-packer-sravan420-linux-aws-ubuntutest"
   instance_type = "t2.micro"
   region        = "ap-south-1"
   source_ami_filter {
