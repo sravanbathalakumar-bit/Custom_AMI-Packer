@@ -9,7 +9,7 @@ packer {
 
 source "amazon-ebs" "ubuntu" {
 
-  ami_name      = "learn-packer-sravanbhaiii-linux-aws-ubuntutest"
+  ami_name      = "learn-packer-sravangadu-linux-aws-ubuntutest"
 
   instance_type = "t2.micro"
   region        = "ap-south-1"
