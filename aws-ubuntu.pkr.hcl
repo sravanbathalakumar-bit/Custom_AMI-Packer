@@ -1,4 +1,4 @@
-packer {
+packetpacker {
   required_plugins {
     amazon = {
       version = ">= 1.2.8"
@@ -8,7 +8,7 @@ packer {
 }
 
 source "amazon-ebs" "ubuntu" {
-  ami_name      = "learn-packer-linux-aws-ubuntutest"
+  ami_name      = "learn-packer-sravan-linux-aws-ubuntutest"
   instance_type = "t2.micro"
   region        = "ap-south-1"
   source_ami_filter {
